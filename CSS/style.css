@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+	width:100%;
+    height: 100%;
+	background-color:#e5f3ed;
+    overflow:auto;
+}
+body{
+    font-family: Monospace;
+	font-size:20px;
+}
+a{
+    text-decoration: none;
+	color:black;
+}
+h3{
+    padding: 10px 0;
+}
+.head{
+	background: rgb(0,168,197);
+	background: linear-gradient(90deg, rgba(0,168,197,1) 0%, rgba(255,255,126,1) 100%);
+    height: 100px;
+}
+
+.head img{
+    padding: 10px;
+    padding-right: 1.7%;
+    height: 100px;
+	display : block;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+
+.nav{
+    background: rgb(0,0,0);
+	background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 38%, rgba(96,89,89,1) 100%);
+    height: 40px;
+    min-width: 550px;
+	font-family: Helvetica;
+	font-size:15px;
+	text-align: center;  
+	position: sticky;
+	top: 0;
+}
+.nav ul{
+    list-style-type: none;
+	display: inline-block;
+}
+.nav a{
+	display:block;
+    height: 40px;
+	padding: 10px;
+	min-width:85px;
+	color:white;
+}
+.nav a:hover{
+	background-color:#262626;
+}
+.active{
+	background-color:#262626;
+}
+.nav li{
+    display:block;
+    float: left;
+    font-weight:bolder;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown-content {
+  display: none;
+  min-width:85px;
+  position: absolute;
+}
+.dropdown-content li{
+	float: none;
+    background: #000000
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.content{
+    margin:0 auto;
+    padding: 25px 15px;
+    min-height: 100%;
+    width: 100%;
+	max-width:900px;
+    font-size: 20px;
+}
+.content p{
+    padding: 15px 0;
+    margin: 0 50px;
+    font-size: 20px;
+    line-height: 1.35;
+    text-align: justify;
+}
+
+.contact input,textarea{
+    padding: 2px 0;
+    min-height: 30px;
+    min-width: 200px;
+}
+.contact table{
+    font:inherit;
+}
+.contact td{
+    padding-right:25px;
+}
+.submit-btn a{
+    display: inline-block;
+    margin: 10px 0;
+    padding: 6px;
+    border: 0;
+    background-color: black;
+    color: white;
+    font-family: Helvetica;
+	font-size:15px;
+}
+
+.about-img img{
+    display: inline-block;
+    padding: 0 5px;
+    padding-top: 10px;
+    width:32%;
+    max-width: 290px;
+    height: 180px;
+}
+.references li{
+    padding-bottom: 5px;
+}
+.index li{
+    padding: 5px 0;
+}
+
